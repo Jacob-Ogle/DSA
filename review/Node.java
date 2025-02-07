@@ -22,6 +22,7 @@ public class Node<T> {
         this.prev = prev;
     }
 
+    // WTF
     public Node(Node<T> prev, T data) {
         this.data = data;
         this.prev = prev;
